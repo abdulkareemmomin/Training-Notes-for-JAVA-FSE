@@ -1,120 +1,83 @@
-Day-1 Notes
+TRAINING NOTES FOR JAVA FSE
+===========================
 
+Day 1
+-----
+(Notes not provided. Add Day 1 summary or topics covered here.)
 
+Day 2 — SDLC (Software Development Life Cycle) & UML
+----------------------------------------------------
 
+1. SDLC Models (short descriptions)
+   1) Waterfall Model
+      - Linear and sequential. Each phase must finish before the next starts.
+   2) Agile Model
+      - Incremental development with frequent feedback and changes.
+   3) Scrum (an Agile framework)
+      - Work in short sprints with daily stand-ups and sprint reviews.
+   4) Iterative Model
+      - Develop software in repeated cycles, improving each version.
+   5) Incremental Model
+      - Build the system in small functional parts (increments).
+   6) V-Model (Verification & Validation)
+      - Each development phase has a corresponding testing phase.
+   7) Spiral Model
+      - Risk-driven model with repeated planning and evaluation.
+   8) Prototype Model
+      - Build a quick prototype to clarify requirements before final development.
+   9) Big Bang Model
+      - Minimal planning; used for small or experimental projects.
+   10) RAD (Rapid Application Development)
+      - Fast development using reusable components and tools.
 
+2. SDLC Steps (simple)
+   1 -> Requirement Gathering & Analysis  ← this is your step
+   2 -> System Design
+   3 -> Development (Coding)
+   4 -> Testing
+   5 -> Deployment
+   6 -> Maintenance
 
+3. UML (Unified Modeling Language) Diagrams
+   - Purpose: Visualize, specify, construct and document software systems.
 
+   1) Class Diagram
+      - Shows: classes, attributes (variables), methods (operations), and relationships
+                (inheritance, association, composition, aggregation).
+      - Used for: Static design of the system and object structure.
 
+   2) Use Case Diagram
+      - Shows: actors (users, external systems) and use cases (functionalities).
+      - Used for: Capturing functional requirements and user interactions.
+      - Example actors: User, Admin
+      - Example use cases: Login, Register, Book Appointment
 
+   3) Sequence Diagram
+      - Shows: interactions between objects arranged in time sequence.
+      - Contains: objects (lifelines) and messages (method calls).
+      - Used for: Explaining API flow and backend logic.
+      - Example flow: User → Controller → Service → Repository → DB
 
+   4) Activity Diagram
+      - Shows: workflow or logic flow (actions, decisions, start/end points).
+      - Used for: Business logic, algorithms, and process flows.
 
-Day-2 notes
+   5) State Diagram (State Machine)
+      - Shows: states of an entity and transitions between states.
+      - Used for: Modeling lifecycle of objects (e.g., orders, payments).
+      - Example: Created → Paid → Shipped → Delivered
 
-types of SDLC(software development life cycle)
+   6) Component Diagram
+      - Shows: high-level system modules and their dependencies.
+      - Used for: Microservices and modular design.
+      - Example: Frontend → Auth Service → Order Service → Database
 
-1️⃣ Waterfall Model
-      Linear and sequential. One phase must finish before the next starts.
-2️⃣ Agile Model
-      Incremental development with frequent feedback and changes.
-3️⃣ Scrum Model (Agile framework)
-      Work done in short sprints with daily meetings.
-4️⃣ Iterative Model
-      Develop software in repeated cycles, improving each version.
-5️⃣ Incremental Model
-      Build the system in small functional parts (increments).
-6️⃣ V-Model (Verification & Validation)
-      Each development phase has a corresponding testing phase.
-7️⃣ Spiral Model
-      Risk-driven model with repeated planning and evaluation.
-8️⃣ Prototype Model
-      Build a quick prototype to clarify requirements before final development.
-9️⃣ Big Bang Model
-      Minimal planning, mostly used for small or experimental projects.
-1️⃣0️⃣ RAD (Rapid Application Development) Model
-      Fast development using reusable components and tools.
+   7) Deployment Diagram
+      - Shows: physical deployment of software on hardware nodes.
+      - Used for: Cloud architecture, servers, Docker containers, Kubernetes.
 
-SDLC steps (simple)
-1 -> Requirement Gathering & Analysis ← 👉 this is your step
-2 -> System Design
-3 -> Development (Coding)
-4 -> Testing
-5 -> Deployment
-6 -> Maintenance
-
-UML (Unified Modeling Language) Diagrams:
-1 -> Class diagram 
-      class
-      variables
-      methods
-      relationships (inheritance, association, composition)
-
-2 -> Use Case Diagram
-
-Shows user interactions
-    Actors (User, Admin)
-    Use cases (Login, Register, Book Appointment)
-
-Used for:
-  Requirement understanding
-
-3 -> Sequence Diagram
-      Shows method call flow over time
-
-Contains:
-  Objects
-  Messages (method calls)
-
-Used for:
-    Explaining API flow, backend logic
-    
-    Example:
-      User → Controller → Service → Repository → DB
-
-4 -> Activity Diagram
-
-Shows workflow or logic flow
-
-Contains:
-
-Actions
-Decisions
-Start / End
-
-Used for:
-    Business logic, algorithms
-
-5 -> State Diagram
-    Shows state changes
-
-Used for:
-    Order status, payment status, ticket lifecycle
-
-Example:
-    Created → Paid → Shipped → Delivered
-
-6 -> Component Diagram
-  Shows system modules
-
-Used for:
-    Microservices, high-level design
-
-Example:
-    Frontend → Auth Service → Order Service → DB
-
-7 -> Deployment Diagram
-
-    Shows physical deployment
-
-Used for:
-    Cloud, servers, Docker, Kubernetes
-
-
-
-
-
-
-
-
-
-
+Notes / Tips
+-----------
+- Use diagrams to communicate different aspects: structure (class/component), behavior (sequence/activity/state), and deployment (deployment diagram).
+- Start with requirements and use cases to drive high-level design; then refine into class diagrams and sequence diagrams for implementation details.
+- Choose an SDLC model based on project complexity, risk, and need for change: Agile for frequent change and collaboration, Waterfall for well-understood requirements.
