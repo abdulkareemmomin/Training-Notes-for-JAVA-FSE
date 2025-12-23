@@ -34,7 +34,13 @@ types of SDLC(software development life cycle)
 1️⃣0️⃣ RAD (Rapid Application Development) Model
       Fast development using reusable components and tools.
 
-
+SDLC steps (simple)
+1 -> Requirement Gathering & Analysis ← 👉 this is your step
+2 -> System Design
+3 -> Development (Coding)
+4 -> Testing
+5 -> Deployment
+6 -> Maintenance
 
 UML (Unified Modeling Language) Diagrams:
 1 -> Class diagram 
@@ -102,6 +108,7 @@ Example:
 
 Used for:
     Cloud, servers, Docker, Kubernetes
+
 
 
 
