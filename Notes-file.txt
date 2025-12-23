@@ -1,0 +1,113 @@
+Day-1 Notes
+
+
+
+
+
+
+
+
+
+
+Day-2 notes
+
+types of SDLC(software development life cycle)
+
+1️⃣ Waterfall Model
+      Linear and sequential. One phase must finish before the next starts.
+2️⃣ Agile Model
+      Incremental development with frequent feedback and changes.
+3️⃣ Scrum Model (Agile framework)
+      Work done in short sprints with daily meetings.
+4️⃣ Iterative Model
+      Develop software in repeated cycles, improving each version.
+5️⃣ Incremental Model
+      Build the system in small functional parts (increments).
+6️⃣ V-Model (Verification & Validation)
+      Each development phase has a corresponding testing phase.
+7️⃣ Spiral Model
+      Risk-driven model with repeated planning and evaluation.
+8️⃣ Prototype Model
+      Build a quick prototype to clarify requirements before final development.
+9️⃣ Big Bang Model
+      Minimal planning, mostly used for small or experimental projects.
+1️⃣0️⃣ RAD (Rapid Application Development) Model
+      Fast development using reusable components and tools.
+
+
+
+UML (Unified Modeling Language) Diagrams:
+1 -> Class diagram 
+      class
+      variables
+      methods
+      relationships (inheritance, association, composition)
+
+2 -> Use Case Diagram
+
+Shows user interactions
+    Actors (User, Admin)
+    Use cases (Login, Register, Book Appointment)
+
+Used for:
+  Requirement understanding
+
+3 -> Sequence Diagram
+      Shows method call flow over time
+
+Contains:
+  Objects
+  Messages (method calls)
+
+Used for:
+    Explaining API flow, backend logic
+    
+    Example:
+      User → Controller → Service → Repository → DB
+
+4 -> Activity Diagram
+
+Shows workflow or logic flow
+
+Contains:
+
+Actions
+Decisions
+Start / End
+
+Used for:
+    Business logic, algorithms
+
+5 -> State Diagram
+    Shows state changes
+
+Used for:
+    Order status, payment status, ticket lifecycle
+
+Example:
+    Created → Paid → Shipped → Delivered
+
+6 -> Component Diagram
+  Shows system modules
+
+Used for:
+    Microservices, high-level design
+
+Example:
+    Frontend → Auth Service → Order Service → DB
+
+7 -> Deployment Diagram
+
+    Shows physical deployment
+
+Used for:
+    Cloud, servers, Docker, Kubernetes
+
+
+
+
+
+
+
+
+
